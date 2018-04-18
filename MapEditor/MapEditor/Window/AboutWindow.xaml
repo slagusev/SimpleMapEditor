@@ -1,0 +1,55 @@
+﻿<Window x:Class="MapEditor.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MapEditor"
+        mc:Ignorable="d"
+        Title="关于编辑器" Height="360" Width="465" Icon="/MapEditor;component/Resources/favicon.ico" Margin="0,-4,0,0" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid Margin="20,15,20,15">
+        <DockPanel>
+            <TextBlock DockPanel.Dock="Top"  FontSize="14" Margin="0,0,0,3" Padding="0">
+                <Run Background="#FF3F3F46" Foreground="White">【使用指南】</Run>
+            </TextBlock>
+            <TextBlock DockPanel.Dock="Top"  FontSize="14">
+                <Run Text="   1. 右键调出菜单：选择、管理笔刷等。"></Run>
+            </TextBlock>
+            <TextBlock DockPanel.Dock="Top"  FontSize="14">
+                <Run Text="   2. 按住Ctrl键为擦除模式。"></Run>
+            </TextBlock>
+            <TextBlock DockPanel.Dock="Top"  FontSize="14">
+                <Run Text="   3. 点击鼠标左键刷图或擦除(擦除模式时)单元格。"></Run>
+            </TextBlock>
+            <TextBlock DockPanel.Dock="Top"  FontSize="14">
+                <Run Text="   4. 按住鼠标左键为连续编辑模式，移动鼠标即可。"></Run>
+            </TextBlock>
+            <TextBlock DockPanel.Dock="Top"  FontSize="14">
+                <Run Text="   5. 项目文件默认保存位置与当前应用平级，带'_proj'后缀。"></Run>
+            </TextBlock>
+            <TextBlock DockPanel.Dock="Top"  FontSize="14">
+                <Run Text="   6. 导出地图数据为json格式，默认带'_data'后缀。"></Run>
+            </TextBlock>         
+            <TextBlock DockPanel.Dock="Top"  FontSize="14" Margin="0,15,0,3" Padding="0">
+                <Run Background="#FF3F3F46" Foreground="White">【功能介绍】</Run>
+            </TextBlock>
+            <TextBlock DockPanel.Dock="Top"  FontSize="14">
+                <Run Text="   1. 该编辑器适用于正方形网格地图。"></Run>
+            </TextBlock>
+            <TextBlock DockPanel.Dock="Top"  FontSize="14">
+                <Run Text="   2. 编辑每个地图网格的类型，并指定笔刷来绘制颜色。"></Run>
+            </TextBlock>
+            <TextBlock DockPanel.Dock="Top"  FontSize="14">
+                <Run Text="   3. 游戏逻辑解析类型决定网格属性：不可行走、穿透、NPC等。"></Run>
+            </TextBlock>          
+            <TextBlock DockPanel.Dock="Top"  FontSize="14" Margin="0,15,0,3">
+                <Run Background="#FF3F3F46" Foreground="White">【开发人员】</Run>
+            </TextBlock>
+            <TextBlock DockPanel.Dock="Top"  FontSize="14">
+                <Run Text="    张元涛   开发起始：2018/4/4"></Run>
+            </TextBlock>
+            <TextBlock DockPanel.Dock="Top"  FontSize="14">
+                <Run Text="    QQ/WeChat:735162787"></Run>
+            </TextBlock>
+        </DockPanel>
+    </Grid>
+</Window>
