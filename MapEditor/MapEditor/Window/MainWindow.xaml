@@ -8,7 +8,7 @@
         Title="2D网格地图编辑器" d:DesignWidth="1024" d:DesignHeight="768" Width="1024" Height="768" WindowStartupLocation="CenterScreen" Closing="Window_Closing" KeyDown="Window_KeyDown" KeyUp="Window_KeyUp" Loaded="Window_Loaded" FontSize="14" Icon="/MapEditor;component/Resources/favicon.ico">
     <DockPanel>
         <DockPanel DockPanel.Dock="Top">
-            <Menu x:Name="mainMenu" VerticalContentAlignment="Center" Padding="5,0,0,0" Margin="0" Height="Auto" VerticalAlignment="Center" Background="{x:Null}" BorderBrush="#FF3F3F46" BorderThickness="0,0,0,1" DockPanel.Dock="Top">
+            <Menu x:Name="mainMenu" VerticalContentAlignment="Center" Padding="5,0,0,0" Margin="0" Height="25" VerticalAlignment="Center" Background="{x:Null}" BorderBrush="#FF3F3F46" BorderThickness="0,0,0,1" DockPanel.Dock="Top">
                 <MenuItem x:Name="MItemStart" Header="开始" FontSize="14" Padding="0,1,6,0" Height="Auto" Cursor="Hand">
                     <MenuItem.Icon>
                         <Image Source="/MapEditor;component/Resources/标签.png"/>
